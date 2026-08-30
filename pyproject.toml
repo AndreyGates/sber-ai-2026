@@ -7,13 +7,17 @@ requires-python = ">=3.12"
 dependencies = [
     "datasets>=5.0.1",
     "jsonschema>=4.26.0",
+    "openai>=3.6.0",
     "openpyxl>=3.1.5",
     "pandas>=3.0.5",
     "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
     "pytest-cov>=7.1.0",
     "python-docx>=1.2.0",
+    "python-dotenv>=1.2.3",
     "rapidfuzz>=3.14.5",
     "reportlab>=5.0.1",
+    "tenacity>=9.1.4",
     "torch>=2.13.0",
     "transformers>=5.16.1",
 ]
@@ -22,10 +26,12 @@ dependencies = [
 testpaths = ["tests"]
 markers = [
     "model: tests that require loading real model weights (deselect with -m 'not model')",
+    "api: tests that require real Yandex Cloud API calls (deselect with -m 'not api')",
 ]
+asyncio_mode = "auto"
 
 [tool.coverage.run]
-source = ["src/pii"]
+source = ["src/pii", "src/code_review"]
 
 [tool.coverage.report]
 show_missing = true
