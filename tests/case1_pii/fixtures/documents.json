@@ -1,0 +1,169 @@
+[
+  {
+    "uid": "fixture-001",
+    "text": "ФИО: Иванов Пётр Сергеевич\nТелефон: +7 (912) 345-67-89\nEmail: ivan.petrov@bank.ru\nДата рождения: 14.03.1985\nПаспорт: 4510 123456\nАдрес: г. Москва, ул. Ленина, д.5, кв.12",
+    "document_type": "application_form",
+    "document_format": "structured",
+    "domain": "banking",
+    "locale": "ru",
+    "known_pii": [
+      "Иванов Пётр Сергеевич",
+      "+7 (912) 345-67-89",
+      "ivan.petrov@bank.ru",
+      "14.03.1985",
+      "4510 123456",
+      "г. Москва, ул. Ленина, д.5, кв.12"
+    ]
+  },
+  {
+    "uid": "fixture-002",
+    "text": "Уважаемый Иван Петрович!\n\nСообщаем, что по вашему договору №Д-2024-001 от 15.01.2024\nначислены проценты на сумму 150 000 рублей.\n\nКарта: 4111111111111111\nСчёт: 40817810099910004312\n\nС уважением,\nИванов П.С.\nООО «Банк Финсервис»",
+    "document_type": "letter",
+    "document_format": "unstructured",
+    "domain": "banking",
+    "locale": "ru",
+    "known_pii": [
+      "Иван Петрович",
+      "4111111111111111",
+      "40817810099910004312",
+      "Иванов П.С."
+    ]
+  },
+  {
+    "uid": "fixture-003",
+    "text": "Patient: John Smith\nDOB: 05/12/1990\nSSN: 123-45-6789\nInsurance: UHC-9876543\nDiagnosis: Type 2 Diabetes\nPrescription: Metformin 500mg\nDoctor: Dr. Sarah Johnson\nPhone: (555) 123-4567\nEmail: john.smith@email.com",
+    "document_type": "medical_record",
+    "document_format": "structured",
+    "domain": "healthcare",
+    "locale": "us",
+    "known_pii": [
+      "John Smith",
+      "05/12/1990",
+      "123-45-6789",
+      "UHC-9876543",
+      "Type 2 Diabetes",
+      "Sarah Johnson",
+      "(555) 123-4567",
+      "john.smith@email.com"
+    ]
+  },
+  {
+    "uid": "fixture-004",
+    "text": "Заявка на кредит\n\nФИО: Петрова Анна Михайловна\nДата рождения: 25.07.1988\nПаспорт: 4511 654321\nТелефон: +7 916 123 45 67\nEmail: petrova.a@mail.ru\nАдрес регистрации: г. Санкт-Петербург, Невский пр., д.100, кв.50\nМесто работы: ООО «Техносервис»\nДолжность: Главный бухгалтер\nДоход: 250 000 руб./мес.",
+    "document_type": "loan_application",
+    "document_format": "structured",
+    "domain": "banking",
+    "locale": "ru",
+    "known_pii": [
+      "Петрова Анна Михайловна",
+      "25.07.1988",
+      "4511 654321",
+      "+7 916 123 45 67",
+      "petrova.a@mail.ru",
+      "г. Санкт-Петербург, Невский пр., д.100, кв.50"
+    ]
+  },
+  {
+    "uid": "fixture-005",
+    "text": "Dear Mr. Johnson,\n\nWe are writing to confirm your appointment on 03/15/2024.\nPlease bring your insurance card (ID: BC-123456789) and photo ID.\n\nOur office is located at 123 Main Street, Springfield, IL 62701.\nFor questions, call (217) 555-0100 or email info@clinic.example.com.\n\nBest regards,\nDr. Emily Watson\nSpringfield Medical Center",
+    "document_type": "appointment_letter",
+    "document_format": "unstructured",
+    "domain": "healthcare",
+    "locale": "us",
+    "known_pii": [
+      "Johnson",
+      "BC-123456789",
+      "123 Main Street, Springfield, IL 62701",
+      "(217) 555-0100",
+      "info@clinic.example.com",
+      "Emily Watson"
+    ]
+  },
+  {
+    "uid": "fixture-006",
+    "text": "Служебная записка\n\nОт: Сидорова Игоря Васильевича\nДолжность: Ведущий специалист отдела рисков\n\nПрошу рассмотреть возможность перевода сотрудника\nКозловой Марии Александровны (табельный №Т-44521)\nв отдел комплаенса.\n\nКонтактный телефон: +7 (495) 789-01-23\nEmail: kozlova.ma@company.ru",
+    "document_type": "memo",
+    "document_format": "unstructured",
+    "domain": "corporate",
+    "locale": "ru",
+    "known_pii": [
+      "Сидорова Игоря Васильевича",
+      "Козловой Марии Александровны",
+      "+7 (495) 789-01-23",
+      "kozlova.ma@company.ru"
+    ]
+  },
+  {
+    "uid": "fixture-007",
+    "text": "INVOICE #INV-2024-0456\n\nBill To:\nAcme Corporation\nAttn: Robert Williams\n123 Business Ave, Suite 400\nChicago, IL 60601\nrobert.williams@acme.com\n\nPayment to:\nIBAN: DE89370400440532013000\nBIC: COBADEFFXXX\n\nAmount: $15,000.00\nDue Date: 04/30/2024",
+    "document_type": "invoice",
+    "document_format": "structured",
+    "domain": "corporate",
+    "locale": "us",
+    "known_pii": [
+      "Robert Williams",
+      "123 Business Ave, Suite 400",
+      "robert.williams@acme.com",
+      "DE89370400440532013000"
+    ]
+  },
+  {
+    "uid": "fixture-008",
+    "text": "Договор оказания услуг №ДУ-2024/123\n\nИсполнитель: ООО «КонсалтингПлюс», ИНН 7701234567\nв лице генерального директора Волкова Дмитрия Андреевича\n\nЗаказчик: ИП Николаева Татьяна Сергеевна\nОГРНИП: 318774600000123\nТелефон: +7 (903) 555-12-34\nEmail: nts@freelance.ru\n\nАдрес: 125009, г. Москва, Тверская ул., д.15, оф.302",
+    "document_type": "contract",
+    "document_format": "structured",
+    "domain": "corporate",
+    "locale": "ru",
+    "known_pii": [
+      "Волкова Дмитрия Андреевича",
+      "Николаева Татьяна Сергеевна",
+      "+7 (903) 555-12-34",
+      "nts@freelance.ru"
+    ]
+  },
+  {
+    "uid": "fixture-009",
+    "text": "This document has no PII at all.\nIt is a plain text about general topics.\nThe weather is nice today.\nPython is a great programming language.\nMachine learning is transforming industries.",
+    "document_type": "general",
+    "document_format": "unstructured",
+    "domain": "general",
+    "locale": "us",
+    "known_pii": []
+  },
+  {
+    "uid": "fixture-010",
+    "text": "Ticket #SUP-7890\n\nReporter: Алексеев Максим Олегович\nEmail: alekseev.mo@support.ru\nPhone: +7 (926) 000-11-22\n\nDescription: Не удаётся войти в личный кабинет.\nПри попытке ввода логина alekseev_max и пароля появляется ошибка.\nКарта клиента: 5500000000000004\n\nAssigned to: Смирнов А.В.",
+    "document_type": "support_ticket",
+    "document_format": "structured",
+    "domain": "it",
+    "locale": "ru",
+    "known_pii": [
+      "Алексеев Максим Олегович",
+      "alekseev.mo@support.ru",
+      "+7 (926) 000-11-22",
+      "5500000000000004",
+      "Смирнов А.В."
+    ]
+  },
+  {
+    "uid": "fixture-011",
+    "text": "Not a card number: 4111111111111112 (fails Luhn check).\nNot an email: user@x (invalid domain).\nJust a regular number: 12345.\nCommon word: Smith is common but here it's just a word, not PII.",
+    "document_type": "edge_cases",
+    "document_format": "unstructured",
+    "domain": "general",
+    "locale": "us",
+    "known_pii": []
+  },
+  {
+    "uid": "fixture-012",
+    "text": "Consistency test document.\n\nFirst mention: Иванов Пётр Сергеевич is the primary account holder.\nPhone: +7 (912) 345-67-89\n\nLater in the document, we refer to Иванов П.С. again.\nAnd once more: Иванов Пётр Сергеевич confirmed the transaction.\n\nThe phone number +7 (912) 345-67-89 was verified.",
+    "document_type": "consistency_test",
+    "document_format": "unstructured",
+    "domain": "banking",
+    "locale": "ru",
+    "known_pii": [
+      "Иванов Пётр Сергеевич",
+      "+7 (912) 345-67-89"
+    ]
+  }
+]

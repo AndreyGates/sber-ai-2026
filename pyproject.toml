@@ -1,0 +1,31 @@
+[project]
+name = "sber-ai-2026"
+version = "0.1.0"
+description = "PII anonymization pipeline based on OpenMed/privacy-filter-nemotron"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=5.0.1",
+    "jsonschema>=4.26.0",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.5",
+    "pytest>=9.1.1",
+    "pytest-cov>=7.1.0",
+    "python-docx>=1.2.0",
+    "rapidfuzz>=3.14.5",
+    "reportlab>=5.0.1",
+    "torch>=2.13.0",
+    "transformers>=5.16.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "model: tests that require loading real model weights (deselect with -m 'not model')",
+]
+
+[tool.coverage.run]
+source = ["src/pii"]
+
+[tool.coverage.report]
+show_missing = true
