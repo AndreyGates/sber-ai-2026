@@ -17,7 +17,7 @@ from pii.pipeline import PIIPipeline
 def main() -> None:
     parser = argparse.ArgumentParser(description="PII Anonymization Pipeline")
     parser.add_argument("--input", type=str, help="Path to input JSONL file (optional, loads from HF if omitted)")
-    parser.add_argument("--output-dir", type=str, default="output/case1-pii-anonymization", help="Output directory")
+    parser.add_argument("--output-dir", type=str, default="output/case1-pii", help="Output directory")
     parser.add_argument("--max-samples", type=int, default=None, help="Max documents to process")
     parser.add_argument("--stratify-by", type=str, default=None, help="Stratify sample by field (e.g. domain)")
     parser.add_argument("--split", type=str, default="test", help="Dataset split")

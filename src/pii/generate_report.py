@@ -264,5 +264,5 @@ def generate_report(output_path: str | Path) -> None:
 
 
 if __name__ == "__main__":
-    generate_report("output/case1-pii-anonymization/report.pdf")
-    print("Report generated: output/case1-pii-anonymization/report.pdf")
+    generate_report("output/case1-pii/report.pdf")
+    print("Report generated: output/case1-pii/report.pdf")
